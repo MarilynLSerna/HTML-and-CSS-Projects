@@ -3,16 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>The Space Station | Resort</title>
+        <link rel="stylesheet" href="./css/shared.css">
+        <link rel="stylesheet" href="./css/animations.css">
     </head>
     <body>
 
         <!--NAV -->
-        <div>
-            <div>
-                <ul>
-                    <a href="#home" id="link"><li>HOME</li></a>
+        <div class="wrap">
+            <div calss="menu-container">
+                <ul class="menu">
+                    <a href="#home"><li>HOME</li></a>
                     <a href="#gallery"><li>GALLERY</li></a>
-                    <a href="#contacts"><li>RESERVATIONS</li></a>
+                    <a href="#contact"><li>RESERVATIONS</li></a>
                 </ul>
             </div>
         </div>
@@ -20,9 +22,9 @@
 
         <!--HOME -->
             <div id="home">
-                <div>
-                    <div>
-                        <span>The Space Station</span>
+                <div class="container">
+                    <div class="text-center">
+                        <span class="head-main">The Space Station</span>
                     </div>
                 </div>
             </div>
@@ -32,15 +34,13 @@
         <section>
             <div id="gallery">
                 <h1>Gallery</h1>
-                <div>
+                <div class="flex-container">
 
                     <!-- PHOTO-CONTAINER 1 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumbnail_1.png" width="590" height="350" 
-                            alt="Surrounding Earth, planets and stars dot the background, 
-                            creating a tapestry of celestial bodies.">
-                            <div>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_1.png" width="590" height="350" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several launch spaces departing daily, book your flight today!</p>
                             </div>
@@ -49,12 +49,10 @@
                     <!-- END PHOTO-CONTAINER 1 -->
 
                     <!-- PHOTO-CONTAINER 2 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumbnail_2.png" width="590" height="350" 
-                            alt="Saturn and it's Moon. Saturn glowing brighly,
-                            agasint the backdrop of the dark, star-studded expanse of space.">
-                            <div>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_2.png" width="590" height="350" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several launch spaces departing daily, book your flight today!</p>
                             </div>
@@ -63,12 +61,10 @@
                     <!-- END PHOTO-CONTAINER 2 -->
 
                     <!-- PHOTO-CONTAINER 3 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumbnail_3.png" width="590" height="350" 
-                            alt="Saturn, the Sun peeks from behind the planet illuminating its rings. 
-                            Large stars shine brightly, floating meteroids drift along the vast void of space.">
-                            <div>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_3.png" width="590" height="350" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several launch spaces departing daily, book your flight today!</p>
                             </div>
@@ -77,12 +73,10 @@
                     <!-- END PHOTO-CONTAINER 3 -->
 
                     <!-- PHOTO-CONTAINER 4 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumbnail_4.png" width="590" height="350" 
-                            alt="Earth with dark vibrant blue colors. The Moon is orbiting Earth, 
-                            the Sun peeking out from the background, and a comet cascading a bright light.">
-                            <div>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_4.png" width="590" height="350" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several launch spaces departing daily, book your flight today!</p>
                             </div>
@@ -91,12 +85,10 @@
                     <!-- END PHOTO-CONTAINER 4 -->
 
                     <!-- PHOTO-CONTAINER 5 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumbnail_5.png" width="590" height="350" 
-                            alt="Uranus colored with a pale blue-green hue. 
-                            Backdrop is a billion stars scattered across the cosmic canvas.">
-                            <div>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_5.png" width="590" height="350" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several launch spaces departing daily, book your flight today!</p>
                             </div>
@@ -105,12 +97,10 @@
                     <!-- END PHOTO-CONTAINER 5 -->
 
                     <!-- PHOTO-CONTAINER 6 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumbnail_6.png" width="590" height="350" 
-                            alt="Solitary Moon in the vast expanse of space.
-                            Background is a billion stars belonging to a Milky way.">
-                            <div>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_6.png" width="590" height="350" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several launch spaces departing daily, book your flight today!</p>
                             </div>
@@ -119,12 +109,10 @@
                     <!-- END PHOTO-CONTAINER 6 -->
 
                     <!-- PHOTO-CONTAINER 7 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumbnail_7.png" width="590" height="350" 
-                            alt="The Moon emitting a luminous blue glow. Background,
-                            the vast expanse of dark space, spekled with countless stars">
-                            <div>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_7.png" width="590" height="350" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several launch spaces departing daily, book your flight today!</p>
                             </div>
@@ -133,12 +121,10 @@
                     <!-- END PHOTO-CONTAINER 7 -->
 
                     <!-- PHOTO-CONTAINER 8 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumbnail_8.png" width="590" height="350" 
-                            alt="Solor system aligned in a curved formation, the sun illuminating each planet. 
-                            Backdrop, is the dark expanse of space, punctuated with countless stars.">
-                            <div>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_8.png" width="590" height="350" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several launch spaces departing daily, book your flight today!</p>
                             </div>
@@ -147,12 +133,10 @@
                     <!-- END PHOTO-CONTAINER 8 -->
 
                     <!-- PHOTO-CONTAINER 9 -->
-                    <div>
-                        <div>
-                            <img src="./images/thumb/thumbnail_9.png" width="590" height="350" 
-                            alt="Moon and the Earth. Behind the Earth's outer core, the Sun peeks through. 
-                            Backdrop is the infinite space, dotted with countless stars and distant galaxies">
-                            <div>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_9.png" width="590" height="350" alt="">
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several launch spaces departing daily, book your flight today!</p>
                             </div>
@@ -161,46 +145,47 @@
                     <!-- END PHOTO-CONTAINER 9 -->
             
                 </div>
-            </div>
-        </div>    
+            </div> 
         </section>
         <!-- END GALLERY -->
 
         <!-- RSVP -->
-        <section>
-            <div id="contacts">
-                <div>
-                    <h1>Reservations</h1>
-                    <div>
-                        <h2><span>Your adventure is just around the moon.</span>
-                            <br />Reserve your flight today!
+        <section id="contact">
+            <div class="container">
+                <div class="heading-padding">
+                    <h1 class="heading-padding">Reservations</h1>
+                    <div class="reservations">
+                        <h2>
+                            <span>Your adventure is just around the moon.</span>
+                            <br/>Reserve your flight today!
                         </h2>
-                        <p>
+                        <p class="rsvp-text">
                             Please provide us with your basic contanct information.
                         </p>
-                        <div>
+                        <div class="form-rsvp">
                             <form action="" method="post">
-                                <input class="rsvp" type="text" value="First Name">
-                                <input class="rsvp" type="text" value="Last Name">
-                                <input class="rsvp" type="text" value="Email Address">
-                                <input class="rsvp" type="text" value="Phone Number">
+                                <input class="rsvp" type="text" value="" placeholder="First Name">  
+                                <input class="rsvp" type="text" value="" placeholder="Last Name">      
+                                <input class="rsvp" type="text" value="" placeholder="Email Address">
+                                <input class="rsvp" type="text" value="" placeholder="Phone Number">
                                 <div class="form-spacer">
                                     <label class="terms">Terms and Conditions</label>
                                 </div>
-                                <div>
+                                <div class="submit">
                                     <input type="submit" value="Submit">
-                                </div>
+                                </div>                       
                             </form>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
         <!-- END RSVP -->
 
         <!-- FOOTER -->
-        <div>
-            www.thespacestation.space &nbsp;|&copy; 2016
+        <div id="footer">
+            www.thespacestation.com &nbsp;|&nbsp; &copy; 2016
         </div>
         <!-- END FOOTER -->
 

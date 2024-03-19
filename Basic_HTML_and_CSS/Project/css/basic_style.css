@@ -42,7 +42,7 @@ transition: transform .5s ease-in-out;
 
 /* INDIVIDUALLY SELECT A SQUARE IN THE ARRAY */
 .squares:nth-child(1) {
-    background: #42040ff;
+    background: #4240ff;
 }
 
 .squares:nth-child(2) {
@@ -81,4 +81,15 @@ transition: transform .5s ease-in-out;
 
 .squares:nth-child(4):hover {
     background: #77b800;
+}
+
+/* ANIMATION EFFECT */
+@keyframes race {
+    0%, 100% {
+        transform: translateY(0px);
+        background-image: url;("../images/icons/smileyface2.png");
+    }
+    50% {
+        transform: translateY(300px);
+    }
 }
