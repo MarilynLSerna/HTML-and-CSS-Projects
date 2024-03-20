@@ -158,9 +158,6 @@ menu-container {
     color: #fff;
 }
 
-.terms {
-    margin-top: 13%;
-}
 
 .head-main {
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
@@ -269,18 +266,18 @@ menu-container {
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090B0D;
-    border-right: ;
-    border-bottom: ;
-    border-left: ;
-    margin: ;
-    border-radius: ;
-    background: ;
-    box-shadow: inset 0px 3px 0px 0px rgba(0, 0, 0, 0.15);
+    border-right: 2px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #090B0D;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: #13161B;
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
     font-family: 'Raleway', sans-serif;
 }
 
 .reservation input[type="text"]:hover {
-    box-shadow: 00 18px rgba(100, 65, 0, .8)
+    box-shadow: 0 0 10px rgba(100, 65, 0, 0.8);
 }
 
 .form-spacer {
@@ -288,13 +285,14 @@ menu-container {
 }
 
 .terms {
-    margin: 30px 1px 0 0;
-    margin-top: 13%;
-    padding-left: 52px;
+    margin: 23px 41px 0 0;
     font-size: 14px;
+    font-weight: 600;
     line-height: 5px;
     color: #000;
-    font-family: 'Raleway', sans-serif
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    cursor: pointer;
 }
 
 .terms:hover{
