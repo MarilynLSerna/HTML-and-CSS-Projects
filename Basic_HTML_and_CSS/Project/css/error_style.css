@@ -9,7 +9,7 @@ h3 {
     }
 
 .photo {
-        border: 2px dotted red;
+        border: 2px dashed red;
         height: 300px;
         width: 600px;
     }
