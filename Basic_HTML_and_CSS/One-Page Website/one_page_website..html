@@ -3,17 +3,26 @@
     <head>
         <meta charset="utf-8">
         <title>The Black Forest | Excursion</title>
+        <link rel="stylesheet" href="./css/one_page_website.css">
     </head>
     <body>
 
         <!--NAV -->
-        <div>
-            <div>
-                <ul>
-                    <a href="#home" id="link"><li>HOME</li></a>
-                    <a href="#gallery"><li>GALLERY</li></a>
-                    <a href="#video"><li>VIDEO</li></a>
-                    <a href="#contacts"><li>RESERVATIONS</li></a>
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
+                    <a href="#home">
+                        <li>HOME</li>
+                    </a>
+                    <a href="#gallery">
+                        <li>GALLERY</li>
+                    </a>
+                    <a href="#video">
+                        <li>VIDEO</li>
+                    </a>
+                    <a href="#contact">
+                        <li>RESERVATIONS</li>
+                    </a>
                 </ul>
             </div>
         </div>
@@ -21,9 +30,9 @@
 
         <!--HOME -->
         <div id="home">
-            <div>
-                <div>
-                    <span>The Black Forest</span>
+            <div class="container">
+                <div class="text-center">
+                    <span class="head-main">The Black Forest</span>
                     <h2>Located in southwest Germany.</h2>
                 </div>
             </div>
@@ -34,11 +43,11 @@
      <section>
         <div id="gallery">
             <h3>Gallery</h3>
-            <div>
+            <div class="flex-container">
 
                 <!-- PHOTO-CONTAINER 1 -->
-                     <div>
-                         <div>
+                     <div class="photo-container">
+                         <div photo>
                             <img src="./images/forest_1.png" width="590" height="350" 
                             alt="Black Forest Image">
                              <div>
@@ -87,25 +96,24 @@
         <!-- END GALLERY -->
 
         <!-- VIDEO -->
-        <div id="video">
-            <h3>Video</h3>
-            <div>
-
-                <div>
-                    <div>
-                     <div>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KLDxfmT_TQ8?si=ufKHPmW-tH0SsBdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <section>
+            <div id="video">
+                <div class="container-video">
+                    <div class="video-box">
+                        <div>
+                            <h3>Video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/KLDxfmT_TQ8?si=ufKHPmW-tH0SsBdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
+         </section>
         <!-- END VIDEO-->
 
         <!-- RSVP -->
-        <section>
-            <div id="contacts">
-                <div>
-                    <h1>Reservations</h1>
-                    <div>
+        <section id="contact">
+            <div class="container">
+                <h1 class="reservation">Reservations</h1>
                         <h1><span>Come and visit this magical woodland full of hauntingly beauty, myths, and folklore.</span>
                             <br />Book your Tour Today!
                         </h1>
@@ -119,9 +127,10 @@
                                 <input class="rsvp" type="text" value="Email Address">
                                 <input class="rsvp" type="text" value="Phone Number">
                                 <div class="form-spacer">
-                                    <label class="terms">Terms and Conditions</label>
                                 </div>
-                                <div>
+
+                                <div class="submit">
+                                    <label class="terms">Terms and Conditions</label>
                                     <input type="submit" value="Submit">
                                 </div>
                             </form>
@@ -133,8 +142,8 @@
         <!-- END RSVP -->
 
         <!-- FOOTER -->
-        <div>
-            www.theblackforest.excursion &nbsp;|&copy; 2024
+        <div is="footer">
+            www.theblackforest.excursion &nbsp;|&nbsp; &copy; 2024
         </div>
         <!-- END FOOTER -->
 
